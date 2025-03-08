@@ -1,5 +1,11 @@
 public class MinhaClasse {
     public static void main(String[] args) {
-        System.out.println("Minha primeira classe no bootcamp dio!");
+        String primeiroNome = "Joao";
+        String segundoNome = "Silva";
+        System.out.println(nomeCompleto(primeiroNome, segundoNome));
+    }
+
+    public static String nomeCompleto (String primeiroNome,String segundoNome){
+        return primeiroNome + " " + segundoNome;
     }
 }
