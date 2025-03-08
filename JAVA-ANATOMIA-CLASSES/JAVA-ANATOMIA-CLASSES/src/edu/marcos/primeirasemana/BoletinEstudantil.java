@@ -2,13 +2,13 @@ package edu.marcos.primeirasemana;
 
 public class BoletinEstudantil {
     public static void main(String[] args) {
-        int mediaFinal = 6;
+        int mediaFinal = 8;
         if (mediaFinal < 6 ) {
-            System.out.println("Reprovado");
+            System.out.println("\n Reprovado");
         } else if(mediaFinal == 6){
-            System.out.println("Prova de Minerva");
+            System.out.println("\n Prova de Minerva");
         } else {
-            System.out.println("Aprovado");
+            System.out.println("\n Aprovado");
 
         }
     }
